@@ -1,0 +1,8 @@
+.pio
+.vscode
+managed_components/
+dependencies.lock
+**/build
+sdkconfig
+sdkconfig.old
+output.mp3

@@ -1,0 +1,14 @@
+version: 0.2.0
+dependencies:
+  idf:
+    version: '>=4.3'
+description: 'ShineMP3: lightweight Shine MP3 encoder'
+#url: https://github.com/anton-malakhov/
+targets:
+  - esp32
+  - esp32s2
+  - esp32s3
+#repository: https://github.com/espressif/esp-iot-solution.git
+#issues: https://github.com/espressif/esp-iot-solution/issues
+#examples:
+#  - path: examples/file_timing

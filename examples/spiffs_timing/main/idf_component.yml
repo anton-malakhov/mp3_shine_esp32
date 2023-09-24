@@ -1,0 +1,4 @@
+dependencies:
+  idf: ">=5.0"
+  mp3_shine_esp32:
+    override_path: "../../../"
