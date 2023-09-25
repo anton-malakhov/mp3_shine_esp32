@@ -1,6 +1,6 @@
 ## Minimalistic Shine MP3 encoding example for ESP32
 This example answers two questions:
-1. How fast the mp3_shine_esp32 is.
+1. How fast is the mp3_shine_esp32.
 2. What is the quality of resulting mp3 stream.
 
 ## Input

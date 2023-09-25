@@ -1,11 +1,12 @@
-# mp3_shine_esp32: Shine MP3 encoder component for ESP32
+## mp3_shine_esp32: Shine MP3 encoder component for ESP32
 
 This is a reviving, tuning, and packaging by Anton Malakhov in 2023 of the Shine MP3 encoder originally written for ARM or MIPS arch devices, quite a long time ago and ported to old ESP-IDF by fkn in 2019.
 
 Memory allocation has been optimised for the ESP32 family of microcontrollers. You should init the encoder ASAP in your code as the encoder needs large contiguous chunks of RAM.
 
 ## Performance
-Use the example to evaluate your particular hardware with your specific settings. The performance was tested on the supplied example with 48K/16bit, 2 channels input on the following hardware:
+
+Use the example to evaluate your particular hardware with your specific settings. The performance was tested on the supplied example with 48K/16bit, 2 channels input, 256 bit rate output on the following hardware:
 * ESP32-S3: Single core takes 53.4% of real time
 * ESP32-S2 Mini: Takes 56.9% of real time
 * ESP32 (WT32-ETH01): Single core takes 71.6%
