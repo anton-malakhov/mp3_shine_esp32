@@ -107,7 +107,7 @@ void SHINE_IRAM shine_mdct_sub(shine_global_config *config, int stride)
         /* Perform aliasing reduction butterfly */
         asm ("#cmuls:");
         for(k=0; k<8; k++)
-          cmuls(mdct_enc[band][k], mdct_enc[band-1][17-k], mdct_enc[band][k], mdct_enc[band-1][17-k], MDCT_CA_CS[k][0], MDCT_CA_CS[k][1]);
+          cmuls(mdct_enc[band][k], mdct_enc[band-1][17-k], mdct_enc[band][k], mdct_enc[band-1][17-k], MDCT_CA_CS[k][1], MDCT_CA_CS[k][0]);
       }
     }
 
